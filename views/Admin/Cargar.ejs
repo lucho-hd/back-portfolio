@@ -1,0 +1,51 @@
+<%- include('../Layout/nav', {title: "Agregar nuevo trabajo"}) %> 
+
+<section class="contacto">
+    <div class="contenido-seccion">
+        <h2>Formulario para agregar un nuevo trabajo</h2>
+        <div class="fila">
+            <div class="columna">
+                <form action="/admin/projects/nuevo" method="post" enctype="application/x-www-form-urlencoded">
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Nombre">
+                    </div>
+                
+                    <div>
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripcion"></textarea>
+                    </div>
+
+                    <legend>Seleccioná la tecnología/s del proyecto
+                        <div class="form-check form-check-inline">
+                                <% for(let i = 0; i < tecnologias.length; i++) { %>                             
+                                    <input class="form-check-input" type="checkbox" id="technology" value="<%= tecnologias[i].name%>" name="technology[]">
+                                    <label class="form-check-label" for="technology"><%= tecnologias[i].name %></label>
+                                <% } %> 
+                        </div>
+                    </legend>
+                    
+                    <div>
+                        <input type="text" name="link" id="link" placeholder="Link al repositorio">
+                    </div>
+                
+                    <div>
+                        <input type="url" name="img" id="img" placeholder="Link a imagen">
+                    </div>
+                    
+                    <div>
+                        <select name="condition" id="condition">
+                            <option selected disabled>Selecciona la condición del trabajo</option>
+                            <option value="true">Público</option>
+                            <option value="false">Privado</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <button type="submit">Cargar trabajo  <i class="bi bi-send-fill"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include('../Layout/footer') %> 

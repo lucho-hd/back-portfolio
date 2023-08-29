@@ -1,0 +1,54 @@
+<%- include('../Layout/nav', {title: "Detalles"}) %> 
+
+<section class="detalle">
+    <div class="fila">
+        <div class="columna">
+            <img src="<%= trabajo.img %> " alt="<%= trabajo.name %> ">
+        </div>
+        <div class="columna">
+            <h2><%= trabajo.name %> </h2>
+            <p> <%= trabajo.description %><a target="_blank" href="<%= trabajo.link %> "> Para ver el código del sitio visitar el siguiente enlace</a></p>
+        </div>
+</section>
+
+<section class="galeria-img">
+    <div class="contenedor-seccion">
+        <h3><span> Galería de imágenes</span></h3>
+        <div class="galeria">
+         <% for(let i = 0; i < trabajo.galeria.length; i++) {%>  
+            <div class="proyecto">
+                <img src="<%= trabajo.galeria[i].url %> " alt="Imagen de la galería">
+                <div class="overlay">
+                    <p> <%= trabajo.galeria[i].description %> </p>
+                </div>
+            </div>
+        <% } %> 
+        </div>
+    </div>
+</section>
+
+<section class="contenedor-comentarios">
+	<h3 class="text-light">Lista de testimonios</h3>
+    <% for(let i = 0; i < trabajo.testimonios.length; i++){ %> 
+		<ul class="lista-comentarios">
+			<li>
+				<div class="comentario-primer-nivel">
+					<div class="caja-comentarios">
+						<div class="titulo-comentario">
+							<h4 class="autor"><%= trabajo.testimonios[i].client %></h4>
+                            <span> Companía: <%= trabajo.testimonios[i].company %> </span>
+							<i class="bi bi-reply"></i>
+							<i class="bi bi-heart"></i>
+						</div>
+						<div class="contenido-comentario">
+							<%= trabajo.testimonios[i].testimonio %> 
+						</div>
+					</div>
+				</div>
+            </li>
+        </ul>
+    <% } %> 
+</section>
+
+<%- include('../Layout/footer') %> 
+

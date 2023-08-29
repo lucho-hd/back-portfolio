@@ -1,0 +1,27 @@
+<%- include('../Layout/nav', {title: "Portfolio"}) %> 
+
+    <section class="container admin">
+      <h2>Administrar trabajos</h2>
+      <p>Desde este panel se pueden administrar los proyectos publicados en el portfolio.</p>
+      <a class="btn btn-primary" href="/admin/projects/nuevo">Agregar trabajo</a>
+      <% for(let i  = 0; i < trabajos.length; i++) {%> 
+        <article class="card mb-3 d-flex text-dark my-4">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="<%= trabajos[i].img %> " class="img-fluid rounded-start" alt="<%= trabajos[i].name %> ">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3 class="card-title"><%= trabajos[i].name  %></h3>
+                <p class="card-text"><%= trabajos[i].description.substr(0, 250) %>... </p>
+                  <a class="btn btn-danger" href="/admin/projects/<%= trabajos[i]._id %>/eliminar"><i class="bi bi-trash-fill"></i></a>
+                  <a class="btn btn-primary" href="/admin/projects/<%= trabajos[i]._id %>/editar"><i class="bi bi-pencil-fill"></i></a>
+                  <a class="btn btn-secondary"><i class="bi bi-eye-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </article>
+      <% } %> 
+    </section>
+
+<%- include('../Layout/footer') %> 

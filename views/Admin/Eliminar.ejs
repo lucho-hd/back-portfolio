@@ -1,0 +1,25 @@
+<%- include('../Layout/nav', {title: "Eliminar trabajo"}) %> 
+
+<section class="container eliminar">
+    <h2>Eliminar <%= trabajo.name %> </h2>
+
+    <article class="card mb-3 d-flex text-dark my-4">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="<%= trabajo.img %> " class="img-fluid rounded-start" alt="<%= trabajo.name %> ">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title"><%= trabajo.name  %></h3>
+              <p class="card-text"><%= trabajo.description %></p>
+                <form action="/admin/projects/<%= trabajo._id %>/eliminar" method="POST" enctype="application/x-www-form-urlencoded">
+                    <button class="btn btn-danger" type="submit">Eliminar <i class="bi bi-trash-fill"></i></button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </article>
+
+</section>
+
+<%- include('../Layout/footer') %> 

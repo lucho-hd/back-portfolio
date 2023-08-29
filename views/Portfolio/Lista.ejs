@@ -1,0 +1,20 @@
+<%- include('../Layout/nav', {title: "Portfolio"}) %> 
+
+<section class="portfolio">
+    <div class="contenedor-seccion">
+        <h1>Portfolio</h1>
+        <a class="btn-admin" href="/admin/projects">Ir a Admin</a>
+        <div class="galeria">
+         <% for(let i = 0; i < trabajos.length; i++) {%> 
+            <div class="proyecto">
+                <img src="<%= trabajos[i].img %> " alt="<%= trabajos[i].name %>">
+                <div class="overlay">
+                    <h2><a href="/projects/<%= trabajos[i]._id %>"><%= trabajos[i].name %></a></h2>
+                </div>
+            </div>
+        <% } %> 
+        </div>
+    </div>
+</section>
+
+<%- include('../Layout/footer') %> 

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "63681b45237decdd414d4b39"
+  },
+  "url": "https://picsum.photos/id/16/400/225",
+  "description": "Vistas desde la orilla del mar",
+  "trabajo_id": {
+    "$oid": "63405efae4c11f48998115d1"
+  }
+},{
+  "_id": {
+    "$oid": "636857415fb62c213d929e5f"
+  },
+  "url": "https://picsum.photos/id/20/400/225",
+  "description": "Objetos de trabajo",
+  "trabajo_id": {
+    "$oid": "63405efae4c11f48998115d1"
+  }
+},{
+  "_id": {
+    "$oid": "636857555fb62c213d929e60"
+  },
+  "url": "https://picsum.photos/id/21/400/225",
+  "description": "prueba",
+  "trabajo_id": {
+    "$oid": "63405efae4c11f48998115d1"
+  }
+}]

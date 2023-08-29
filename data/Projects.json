@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "633f6cafa217685b6adb6eab"
+  },
+  "name": "GND Gaming",
+  "description": "Este proyecto fue realizado con el fin del primer parcial para la materia de Programación II. El fin de dicho proyecto fue la creación de una tienda virtual dedicada a la venta de juegos digitales. Dicho tienda fue realizada mediante el uso del lenguaje PHP (Hypertext Preprocessor), para realizar todos los procesos que transcurren por detrás de escena, tales como cambiar de una sección a otra, y cargar cada producto con sus propias características (precio, nombre, descripción, imagen destacada, etc.)Para darle un cambio estético al sitio se implementó la galería de Bootstrap y se creó un archivo CSS para personalizar algunos contenidos de Bootstrap.Por último para aquellas personas que quieran ver el como fue creado el sitio les adjunto un link de GitHub, el cual muestra el código HTML, PHP y CSS que fue utilizado:",
+  "link": "https://github.com/lucho-hd/GND-Gaming  ",
+  "img": "https://picsum.photos/id/1/400/225",
+  "public": "true",
+  "technology": "PHP"
+},{
+  "_id": {
+    "$oid": "63405834e4c11f48998115cd"
+  },
+  "name": "Folleto Díptico de Londres",
+  "description": "Este folleto díptico fue hecho para la materia de comunicación visual con el objetivo de fomentar el turismo en la ciudad de Londres. En el folleto se hablan de los distintos monumentos más importantes que la ciudad ofrece, tales como Piccadilly Circus, el Palacio de Westminster y la Torre de Londres entre otros. Además al comienzo a manera introductoria se hace un breve explicación de lo que ofrece la ciudad, como la cantidad de habitantes, la moneda local y y su historia.",
+  "link": "https://github.com/lucho-hd/Folleto-Diptico-Londres",
+  "img": "https://picsum.photos/id/1005/400/225",
+  "public": "true"
+},{
+  "_id": {
+    "$oid": "63405b55e4c11f48998115ce"
+  },
+  "name": "Urban Shoes",
+  "description": "Ecommerce hecho con Wordpress y Woocommerce, su objetivo pricipal es la venta de distintos tipos de zapatillas, desde deportivas hasta urbanas.",
+  "link": "https://www.urbanshoes.ga/",
+  "img": "https://picsum.photos/id/1011/400/225",
+  "public": "true"
+},{
+  "_id": {
+    "$oid": "63405c38e4c11f48998115cf"
+  },
+  "name": "Splash de Pegasus Store",
+  "description": "Pantalla de carga para la aplicación de Pegasus Store",
+  "link": "https://github.com/lucho-hd/Splash-Pegasus-Store",
+  "img": "https://picsum.photos/id/1022/400/225",
+  "public": "true"
+},{
+  "_id": {
+    "$oid": "63405e3be4c11f48998115d0"
+  },
+  "name": "Shark Fitness ",
+  "description": " Este sitio fue creado con el objetivo de Segundo Parcial para la materia de Interacción con dispositivos móviles. El sitio está pensado para un gimnasio, dentro del sitio se puede encontrar 4 secciones diferentes, las cuales son: Acerca de nosotros: donde se habla de la visión del gimnasio y como enfocan sus entrenamientos a sus clientes. Ubicaciones: se muestran las distintas sedes que el gimnasio posee con la posibilidad de ver su dirección y localidad. Descargar la APP: en esta sección le ofrece al usuario un «call to action«, donde se lo invita al a descargar la app (disponible para Android y IOS) del gimnasio para que pueda ver sus rutinas, planificar sus horarios y clases. Socios: se muestran los beneficios al adquirir la membresía de socio, ya que a la hora de adquirir la misma los clientes obtienen el pase multisede, el cual los habilita para hacer sus actividades en cualquiera de las diferentes sedes y clases con los mejores coaches. Probá una clase: por último un pequeño formulario donde los clientes se pueden anotar a probar una clase con un coach. Para la maquetación del sitio se implementó HTML 5 y para darle un estilo personalizado se creo una hoja de estilos de CSS, además se utilizó la galería de estilos Bootstrap. Para ver el código completo adjunto el siguiente link que llevará a Github  ",
+  "link": "https://github.com/lucho-hd/Segundo-Parcial-Interaccion-con-Dispositivos-Moviles",
+  "img": "https://picsum.photos/id/1026/400/225",
+  "public": "true"
+},{
+  "_id": {
+    "$oid": "63405efae4c11f48998115d1"
+  },
+  "name": "Logo de Shark Fitness",
+  "description": "Este logo fue hecho para el sitio de Shark Fitness, mediante el uso de Illustrator. Para lograr su creación se utilizó la herramienta pluma para definir sus diferentes segmentos y darle los diferentes efectos, como las sombras y reflejos. Fue elegido el modelo del tiburón ya que se quiso representar la fuerza y constancia, valores que representan al gimnasio.",
+  "link": "https://github.com/lucho-hd/Logo-shark-fitness",
+  "img": "https://picsum.photos/id/1041/400/225",
+  "public": "true"
+},{
+  "_id": {
+    "$oid": "6360070c8cd0085318057e6f"
+  },
+  "name": "Prueba",
+  "description": "Prueba de que el editar de la api funciona",
+  "link": "a",
+  "img": "https://picsum.photos/id/1010/400/225",
+  "public": "false",
+  "technology": "PHP, JavaScript"
+},{
+  "_id": {
+    "$oid": "63608881547910c00e19ce62"
+  },
+  "name": "Prueba2",
+  "description": "Prueba2 de que el editar de la api funciona",
+  "technology": "Express y Node",
+  "link": "b",
+  "img": "https://picsum.photos/id/1011/400/225",
+  "public": "false"
+},{
+  "_id": {
+    "$oid": "6362dbdb4106b6abd4ca9c5d"
+  },
+  "name": "Prueba check",
+  "description": "",
+  "technology": [
+    "PHP",
+    "Express"
+  ],
+  "link": "",
+  "img": "https://picsum.photos/id/1041/400/225",
+  "public": "false"
+}]
